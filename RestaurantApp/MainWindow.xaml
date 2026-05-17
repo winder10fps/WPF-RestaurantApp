@@ -4,9 +4,17 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RestaurantApp"
+        xmlns:wpf="clr-namespace:TitlebarAdaptive.WPF;assembly=TitlebarAdaptive.WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        wpf:OriginalWindowHelper.TitleBarIsLight="False"
+        WindowState="Maximized"
+        Background="{StaticResource BackgroundBrush}"
+        Icon="/Resources/Icons/logo.ico"
+        Title="Golden Fork" 
+        Height="1080" 
+        Width="1920">
+    
     <Grid>
-
+        <TextBlock Style="{StaticResource PrimaryStyle}">ddkdk</TextBlock>
     </Grid>
 </Window>
