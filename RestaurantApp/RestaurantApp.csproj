@@ -8,4 +8,16 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Resources\Icons\logo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TitlebarAdaptive.WPF" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Icons\logo.ico" />
+  </ItemGroup>
+
 </Project>

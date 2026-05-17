@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Кисти для всех цветов из Colors.xaml -->
+    <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource PrimaryColor}"/>
+    <SolidColorBrush x:Key="BackgroundBrush" Color="{StaticResource BackgroundColor}"/>
+    <SolidColorBrush x:Key="LightBrush" Color="{StaticResource LightColor}"/>
+    <SolidColorBrush x:Key="DarkBrush" Color="{StaticResource DarkColor}"/>
+    <SolidColorBrush x:Key="Gray900Brush" Color="{StaticResource Gray900Color}"/>
+    <SolidColorBrush x:Key="Gray800Brush" Color="{StaticResource Gray800Color}"/>
+    <SolidColorBrush x:Key="Gray400Brush" Color="{StaticResource Gray400Color}"/>
+    <SolidColorBrush x:Key="GreenBrush" Color="{StaticResource GreenColor}"/>
+    <SolidColorBrush x:Key="RedBrush" Color="{StaticResource RedColor}"/>
+</ResourceDictionary>
